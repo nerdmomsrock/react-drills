@@ -11,7 +11,7 @@ class App extends Component {
   }
 
   
-  render () {
+  render (){
     return (
       <div className='App'>
         <ul>{this.state.data.map((element)=> {

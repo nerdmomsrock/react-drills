@@ -3,7 +3,7 @@ import React, {Component} from 'react';
 class Todo extends Component{
     render(){
         return(
-        <p>{this.props.todo}</p>
+        <h4>{this.props.todo }</h4>
         )
     }
 }
